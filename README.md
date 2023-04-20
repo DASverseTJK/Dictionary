@@ -32,6 +32,7 @@ To use this project, simply run it and start querying for words. The project als
 ## License
 
 This project is licensed under the MIT license.
+[![CC 4.0][cc-image]][cc-url]
 
 ## Contributing
 
