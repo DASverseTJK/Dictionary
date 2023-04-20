@@ -126,7 +126,7 @@ Contributions are welcome. Please submit a pull request or open an issue if you 
 
 To run tests, run the following command:
 ```
-$ npm test
+$ 
 ```
 
 ## Questions
