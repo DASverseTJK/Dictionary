@@ -18,21 +18,22 @@ This project is a dictionary that only collects 4 ~ 10 character limited sized w
 - - db_connection + dummyw.txt file reader code + faker api reader + put those values into 'dummyt' table, aka. Extra version of db_connection
 - dummyw.txt
 - - list of random words from CapitalizeMyTitle API
-
+<br /><br />
 - NPM, why Axios?
 ![axios vs request vs superagent](https://user-images.githubusercontent.com/131336470/233300005-aa6b14c2-c12d-4b35-90e2-d07543aab3fa.PNG) <br />
  -Since our plan was gathering all the data we need, axios was chosen due to most trend activity
-
-- Flow Chart of Program
+<br />
+- Flow Chart of Program <br />
 ![Dictionary drawio_version2](https://user-images.githubusercontent.com/131336470/233298231-44e12372-8331-4cce-9505-80b5b8e79736.png)<br />
-
-- DB flow
+<br />
+- DB flow <br />
 ![dictionary_db](https://user-images.githubusercontent.com/131336470/233299982-123f0e9e-610b-4f2f-bf3a-17656e7d2207.png)<br />
-
+<br />
 - Program activity with API request call
 ![11](https://user-images.githubusercontent.com/131336470/233300441-d471e570-98b3-45b6-98d3-c5f97733da9c.PNG)<br />
 ![22](https://user-images.githubusercontent.com/131336470/233300452-f371f452-94da-4a9c-82ac-ac87fd6c7b9a.PNG)<br />
-
+- - Error : when a random word from DB is not in WordsAPI DB
+- - Latency : how fast API is made
 
 ## Table of Contents
 
