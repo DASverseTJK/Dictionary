@@ -17,7 +17,7 @@ This project is a dictionary that only collects 4 ~ 10 character limited sized w
 
 To install the necessary dependencies, run the following command:
 
-npm install 
+npm install axios
 
 ## Usage
 
