@@ -41,13 +41,14 @@ $ node filename.js
 ```
 - MySQL Query
 ```
+ - Need to run this 4 line to transfer all data to worddictionary so that It does not create auto-increment issue
 -- Run all of 4 lines at a time to transfer values from 'wordt' to 'worddictionary' table
 delete from worddictionary where worddictionary.index < 5000000;
 alter table worddictionary AUTO_INCREMENT = 1;
 Insert IGNORE into worddictionary (words) select LOWER(wordt.word) from wordt WHERE char_LENGTH(wordt.word) >= 4;
 select * from worddictionary order by worddictionary.index DESC;
 ```
-
+ -Just couple Mysql query to your convience
 ```
 -- Checking how many data exist in 'wordt' table
 select COUNT(*) from wordt;
