@@ -91,4 +91,4 @@ $ npm test
 
 ## Questions
 
-If you have any questions about this project, please feel free to contact the project owner at [INSERT YOUR EMAIL HERE].
+If you have any questions about this project, please feel free to contact the project owner at [tjdas0930@gmail.com].
