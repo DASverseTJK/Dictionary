@@ -41,10 +41,34 @@ $ node filename.js
 ```
 - MySQL Query
 ```
-$ delete from worddictionary where worddictionary.index < 5000000;
-$ alter table worddictionary AUTO_INCREMENT = 1;
-$ Insert IGNORE into worddictionary (words) select LOWER(wordt.word) from wordt WHERE char_LENGTH(wordt.word) >= 4;
-$ select * from worddictionary order by worddictionary.index DESC;
+-- Run all of 4 lines at a time to transfer values from 'wordt' to 'worddictionary' table
+delete from worddictionary where worddictionary.index < 5000000;
+alter table worddictionary AUTO_INCREMENT = 1;
+Insert IGNORE into worddictionary (words) select LOWER(wordt.word) from wordt WHERE char_LENGTH(wordt.word) >= 4;
+select * from worddictionary order by worddictionary.index DESC;
+```
+
+```
+-- Checking how many data exist in 'wordt' table
+select COUNT(*) from wordt;
+
+-- Delete all of data below 4 character from 'wordt' and 'dummyt' table
+delete from wordt where wordt.index > 0 AND char_length(wordt.word) < 4;
+delete from dummyt where dummyt.dummyi > 0 AND char_length(dummyt.dummyw) < 4;
+
+-- 'wordt' list checking
+select * from wordt WHERE char_LENGTH(wordt.word) >= 4 order by wordt.index DESC;
+-- 'dummyt' list checking
+select * from dummyt order by dummyt.dummyi DESC;
+
+-- Checking duplication in 'wordt' table
+SELECT wordt.word FROM wordt GROUP BY wordt.word HAVING count(wordt.word) > 1;
+
+-- Inserting 'dummyt' table data to 'wordt' table
+INSERT INTO dictionary.wordt (word) (SELECT dummyw FROM dictionary.dummyt );
+
+-- selecting a random word from 'wordt' table
+SELECT wordt.word FROM wordt ORDER BY RAND() limit 1;
 ```
 
 ## License
