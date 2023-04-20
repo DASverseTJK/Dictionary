@@ -1,6 +1,7 @@
 # Dictionary
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) @Copyright (c) 2023 DASverse
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
+- @Copyright (c) 2023 DASverse
 - IDE    : VSCode
 - DB     : MySQL using workbench
 - Date   : 2023-04-11
