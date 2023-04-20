@@ -25,9 +25,11 @@ This project is a dictionary that only collects 4 ~ 10 character limited sized w
 
 To install the necessary dependencies, run the following command:
 
+- To request API call
 ```
 $ npm install axios
 ```
+- To use Faker open API library page if wish to download words from faker only
 ```
 $ npm install faker
 ```
