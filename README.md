@@ -28,6 +28,9 @@ To install the necessary dependencies, run the following command:
 ```
 $ npm install axios
 ```
+```
+$ npm install faker
+```
 
 ## Usage
 
