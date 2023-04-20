@@ -1,4 +1,6 @@
-# Project Name
+# Dictionary
+
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## License
 
@@ -31,8 +33,8 @@ To use this project, simply run it and start querying for words. The project als
 
 ## License
 
-This project is licensed under the 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
 
 
 ## Contributing
