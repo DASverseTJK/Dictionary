@@ -21,8 +21,9 @@ This project is a dictionary that only collects 4 ~ 10 character limited sized w
 
 To install the necessary dependencies, run the following command:
 
-npm install axios
-
+```
+$ npm install axios
+```
 
 ## Usage
 
@@ -39,9 +40,9 @@ Contributions are welcome. Please submit a pull request or open an issue if you 
 ## Tests
 
 To run tests, run the following command:
-
-npm test
-
+```
+$ npm test
+```
 
 ## Questions
 
