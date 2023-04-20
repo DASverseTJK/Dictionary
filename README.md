@@ -31,7 +31,7 @@ To use this project, simply run it and start querying for words. The project als
 
 ## License
 
-License
+This project is licensed under the 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
