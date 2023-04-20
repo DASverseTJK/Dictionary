@@ -40,7 +40,7 @@ $ npm install faker
 $ node filename.js
 ```
 - MySQL Query
- - Need to run this 4 line to transfer all data to worddictionary so that It does not create auto-increment issue
+ -Need to run this 4 line to transfer all data to worddictionary so that It does not create auto-increment issue
 ```
 -- Run all of 4 lines at a time to transfer values from 'wordt' to 'worddictionary' table
 delete from worddictionary where worddictionary.index < 5000000;
