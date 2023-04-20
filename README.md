@@ -7,9 +7,6 @@
 - Date   : 2023-04-11
 - Author : Tae Jin Kim
 
-## License
-
-This project is licensed under the MIT license.
 
 ## Description
 
