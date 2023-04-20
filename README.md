@@ -40,6 +40,46 @@ $ npm install faker
 $ node filename.js
 ```
 - MySQL Query
+ -Creating Tables
+```
+CREATE TABLE `dummyt` (
+  `dummyi` int NOT NULL AUTO_INCREMENT,
+  `dummyw` varchar(15) NOT NULL,
+  PRIMARY KEY (`dummyi`),
+  UNIQUE KEY `dummyTcol_UNIQUE` (`dummyw`)
+) ENGINE=InnoDB AUTO_INCREMENT=54760986 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+```
+
+```
+CREATE TABLE `wordadded` (
+  `index` int NOT NULL AUTO_INCREMENT,
+  `callMade` int unsigned DEFAULT NULL,
+  `wordAdded` int unsigned DEFAULT NULL,
+  PRIMARY KEY (`index`),
+  UNIQUE KEY `index_UNIQUE` (`index`)
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+```
+
+```
+CREATE TABLE `worddictionary` (
+  `index` int NOT NULL AUTO_INCREMENT,
+  `words` varchar(15) NOT NULL,
+  PRIMARY KEY (`index`),
+  UNIQUE KEY `words_UNIQUE` (`words`),
+  UNIQUE KEY `index_UNIQUE` (`index`)
+) ENGINE=InnoDB AUTO_INCREMENT=16384 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+```
+
+```
+CREATE TABLE `wordt` (
+  `index` int NOT NULL AUTO_INCREMENT,
+  `word` varchar(15) NOT NULL,
+  PRIMARY KEY (`index`),
+  UNIQUE KEY ` word_UNIQUE` (`word`)
+) ENGINE=InnoDB AUTO_INCREMENT=23573 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+```
+
+
  -Need to run this 4 line to transfer all data to worddictionary so that It does not create auto-increment issue
 ```
 -- Run all of 4 lines at a time to transfer values from 'wordt' to 'worddictionary' table
