@@ -10,7 +10,7 @@
 
 ## Description
 
-This project is a dictionary that only collects 4 ~ 10 character limited sized words excluding special characters, such as `-=;/][`, and numbers. The project utilizes the WordsAPI library for random dummy words, and is developed in VSCode. MySQL is used as the database using workbench.
+This project is a dictionary that only collects words limited to 4 to 10 characters in size, excluding special characters such as -=;/][ and numbers. The project utilizes the WordsAPI library to generate random dummy words, and is developed in VSCode. MySQL is used as the database, with workbench as the interface.
 
 - db_connection.js<br /> 
   - latest version that contains all you need
