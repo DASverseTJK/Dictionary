@@ -13,9 +13,9 @@
 This project is a dictionary that only collects 4 ~ 10 character limited sized words excluding special characters, such as `-=;/][`, and numbers. The project utilizes the WordsAPI library for random dummy words, and is developed in VSCode. MySQL is used as the database using workbench.
 
 - db_connection.js<br /> 
-- - latest version that contains all you need
+  - latest version that contains all you need
 - fileAndFaker.js<br />
-- - db_connection + dummyw.txt file reader code + faker api reader + put those values into 'dummyt' table, aka. Extra version of db_connection
+  - db_connection + dummyw.txt file reader code + faker api reader + put those values into 'dummyt' table, aka. Extra version of db_connection
 - dummyw.txt
 - - list of random words from CapitalizeMyTitle API
 <br /><br />
