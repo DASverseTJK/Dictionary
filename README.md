@@ -42,9 +42,9 @@ $ node filename.js
 - MySQL Query
 ```
 $ delete from worddictionary where worddictionary.index < 5000000;
-alter table worddictionary AUTO_INCREMENT = 1;
-Insert IGNORE into worddictionary (words) select LOWER(wordt.word) from wordt WHERE char_LENGTH(wordt.word) >= 4;
-select * from worddictionary order by worddictionary.index DESC;
+$ alter table worddictionary AUTO_INCREMENT = 1;
+$ Insert IGNORE into worddictionary (words) select LOWER(wordt.word) from wordt WHERE char_LENGTH(wordt.word) >= 4;
+$ select * from worddictionary order by worddictionary.index DESC;
 ```
 
 ## License
