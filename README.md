@@ -31,10 +31,7 @@ To use this project, simply run it and start querying for words. The project als
 
 ## License
 
-This project is licensed under the MIT license.
-[![CC 4.0][cc-image]][cc-url]
-[cc-url]: http://creativecommons.org/licenses/by/4.0/
-[cc-image]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
 ## Contributing
