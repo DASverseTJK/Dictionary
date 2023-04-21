@@ -17,7 +17,7 @@ This project is a dictionary that only collects words limited to 4 to 10 charact
 - fileAndFaker.js<br />
   - db_connection + dummyw.txt file reader code + faker api reader + put those values into 'dummyt' table, aka. Extra version of db_connection
 - dummyw.txt
-- - list of random words from CapitalizeMyTitle API
+  - list of random words from CapitalizeMyTitle API
 <br /><br />
 - NPM, why Axios?
 ![axios vs request vs superagent](https://user-images.githubusercontent.com/131336470/233300005-aa6b14c2-c12d-4b35-90e2-d07543aab3fa.PNG) <br /><br />
@@ -32,8 +32,8 @@ This project is a dictionary that only collects words limited to 4 to 10 charact
 - Program activity with API request call
 ![11](https://user-images.githubusercontent.com/131336470/233300441-d471e570-98b3-45b6-98d3-c5f97733da9c.PNG) <br /><br />
 ![22](https://user-images.githubusercontent.com/131336470/233300452-f371f452-94da-4a9c-82ac-ac87fd6c7b9a.PNG) <br /><br />
-- - Error : when a random word from DB is not in WordsAPI DB
-- - Latency : how fast API is made
+  - Error : when a random word from DB is not in WordsAPI DB
+  - Latency : how fast API is made
 
 ## Table of Contents
 
