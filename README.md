@@ -23,7 +23,7 @@ This project is a dictionary that only collects words limited to 4 to 10 charact
 ![axios vs request vs superagent](https://user-images.githubusercontent.com/131336470/233300005-aa6b14c2-c12d-4b35-90e2-d07543aab3fa.PNG) <br /><br />
  -Since our plan was gathering all the data we need, axios was chosen due to most trend activity
 
-- Flow Chart of Program <br />
+- *** [[[SHAPES OF FLOW CHART IS INCORRECT]]] *** Flow Chart of Program <br />
 ![Dictionary drawio_version2](https://user-images.githubusercontent.com/131336470/233298231-44e12372-8331-4cce-9505-80b5b8e79736.png) <br /><br />
 
 - DB flow <br />
